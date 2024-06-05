@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Baloo Bhai';
+    src: url('BalooBhai-Regular.woff2') format('woff2'),
+        url('BalooBhai-Regular.woff') format('woff'),
+        url('BalooBhai-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baloo Bhai';
+    src: url('BalooBhai-Regular_1.woff2') format('woff2'),
+        url('BalooBhai-Regular_1.woff') format('woff'),
+        url('BalooBhai-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baloo Bhai';
+    src: url('BalooBhai-Regular_2.woff2') format('woff2'),
+        url('BalooBhai-Regular_2.woff') format('woff'),
+        url('BalooBhai-Regular_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baloo Bhai';
+    src: url('BalooBhai-Regular_3.woff2') format('woff2'),
+        url('BalooBhai-Regular_3.woff') format('woff'),
+        url('BalooBhai-Regular_3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

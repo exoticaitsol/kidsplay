@@ -1,0 +1,1448 @@
+/*
+Theme Name: Twenty Twenty-One Child
+Theme URI: https://wordpress.org/themes/twentytwentyone/
+Template: twentytwentyone
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
+Tags: one-column,accessibility-ready,custom-colors,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,block-patterns,rtl-language-support,sticky-post,threaded-comments,translation-ready,blog,portfolio
+Version: 2.2.1716786845
+Updated: 2024-05-27 05:14:05
+
+*/
+
+
+
+
+@import url("../fonts/baloo-bhau-2/stylesheet.css");
+@import url("../fonts/baloo-main/stylesheet.css");
+/* container  */
+
+
+*{
+ padding:0;
+ margin:0;
+ box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0 6%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/* container  */
+/* fonts */
+h1, h2, h3, h4, h5, h6, a{
+   
+    font-family: 'Baloo Bhai';
+}
+p, span, button, div, input, textarea{
+    font-family: 'Baloo Bhai 2';
+}
+
+
+
+/* fonts */
+/* top header */
+.topbar {
+    background: #4D3B9F;
+    padding:  0.5208333333333334vw 0;
+}
+ul.ul_footer_tag li a {
+    color: #fff !important;
+}
+ul.ul_footer_tag li a:hover{
+    color: #fe6500 !important;
+}
+section.header.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    background: white;
+    z-index: 999;
+}
+
+.top-bar-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar-left-content a {
+    text-decoration: none;
+    font-size: 0.9375vw;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-family: 'Baloo Bhai';
+}
+.top-bar-left-content i {
+    font-size: 1.0416666666666667vw;
+}
+/* top header */
+/* header */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.9375vw;
+    padding: 0 2.2916665vw;
+    transition: 0.5s;
+    font-family: 'Baloo Bhai';
+}
+.navbar ul li a:hover {
+    color: #fe6500;
+    transition: 0.5s;
+}
+
+.navbar ul li:first-child a {padding-left: 0;}
+
+.navbar ul li:last-child a {
+    padding-right: 0;
+}
+
+.header-btn a {
+    text-decoration: none;
+    background: #FE6500;
+    color: #fff;
+    padding: 0.5208333333333334vw 1.5625vw;
+    font-size: 1.0416666666666667vw;
+    border-radius: 100px;
+    transition: 0.5s;
+    font-family: 'Baloo Bhai';
+    
+}
+.header-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.header-logo a {
+    height: 4.322916666666667vw;
+    width: 9.583333333333334vw;
+    display: block;
+}
+section.header {
+    background-image: url('https://kidsplay.exoticaitsolutions.com/wp-content/uploads/2024/05/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+section.banner .slick-dots li button {
+    background: transparent !important;
+}
+.header-btn a:hover {
+    background: #91c52e;
+    transition: 0.5s;
+}
+/* header */
+/* banner */
+section.banner {
+    background-image: url(../images/banner-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 4.6875vw 0;
+}
+.main-banner {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading-banner h2 {
+    font-size: 4.84375vw;
+    font-weight: 400;
+    line-height: 5.071354166666667vw;
+    margin: 0;
+    max-width: 23.802083333333332vw;
+    color: #fff;
+}
+
+.heading-banner p {
+    font-size: 0.9375vw;
+    font-weight: 600;
+    line-height: 1.93125vw;
+    color: #fff;
+    max-width: 25.208333333333332vw;
+    margin: 0.78125vw 0 0 0;
+}
+.heading-banner h2 span {
+    color: #FFA800;
+    font-family: 'Baloo Bhai';
+}
+.heading-banner h2 span {
+    color: #FFA800;
+    font-family: 'Baloo Bhai';
+}
+
+.banner-btn a {
+    text-decoration: none;
+    background: #FE6500;
+    color: #fff;
+    padding: 0.5208333333333334vw 2.0833333333333335vw;
+    font-size: 1.0416666666666667vw;
+    border-radius: 100px;
+    transition: 0.5s;
+    display: block;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 1.0416666666666667vw;
+}
+
+.our-contect-btn a {
+    background: #91C52E;
+    transition: 0.5s;
+}
+
+.our-contect-btn a:hover {
+    background: #fe6500;
+    transition: 0.5s;
+}
+
+.our-story-btn a:hover {
+    transition: 0.5s;
+    background: #91c52e;
+}
+
+.banner-btn {
+    margin: 2.6041666666666665vw 0 0 0;
+}
+.banner-img-children {
+    width: 45.052083333333336vw;
+    height: 29.947916666666668vw;
+    overflow: hidden;
+}
+
+.banner-img-children img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+    transition: 0.6s;
+    cursor: pointer;
+    max-width: 100% !important;
+}
+.banner-img-children:hover img {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+section.banner .slick-dots li.slick-active button:before {
+    opacity: 9 !important;
+    color: #91C52E !important;
+}
+section.banner .slick-dots li button:before {
+    font-size: 1.0416666666666667vw !important;
+}
+section.banner .slick-dots {
+    bottom: -3.729167vw !important;
+}
+section.banner .slick-dots li button:before {
+    opacity: 9 !important;
+    color: #fff !important;
+}
+section.banner .slick-arrow {
+    display: none !important;
+}
+section.banner .slick-dots li {
+    margin: 0 0.5vw  !important;
+}
+/* banner */
+/* we are */
+section.we-are {
+    background-image: url(../images/who-we-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.how-we-are {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.how-we-are-img {
+    width: 25.729166666666668vw;
+    height: 17.083333333333332vw;
+    overflow: hidden;
+    margin: 1.4583333333333333vw 0 0;
+    overflow: hidden;
+}
+
+.how-we-are-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.how-we-are-img:hover img {
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+
+.how-lrft-content span {
+    font-family: Baloo Bhai;
+    font-size: 1.0416666666666667vw;
+    font-weight: 400;
+    line-height: 1.090625vw;
+    text-align: center;
+    display: block;
+    color: #FE6500;
+}
+
+.how-lrft-content h3 {
+    font-family: Baloo Bhai;
+    font-size: 3.125vw;
+    font-weight: 400;
+    line-height: 3.271875vw;
+    text-align: center;
+    margin: 0;
+    color: #373434;
+}
+
+.how-we-are-content p {
+    font-size: 0.9375vw;
+    font-weight: 600;
+    line-height: 1.93125vw;
+    color: #373434;
+}
+
+.how-we-are-content span {
+    font-size: 0.9375vw;
+    font-weight: 600;
+    line-height: 1.93125vw;
+    color: #373434;
+    display: block;
+}
+
+.how-btn a {
+    text-decoration: none;
+    background: #FE6500;
+    color: #fff;
+    padding: 0.3645833333333333vw 1.4583333333333333vw;
+    font-size: 1.0416666666666667vw;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.how-btn a:hover {
+    background: #91c52e;
+    transition: 0.5s;
+}
+
+.how-btn {
+    margin: 3.4375vw 0 0px;
+}
+
+.how-we-sre-right {
+    padding-left: 3.6458333333333335vw;
+}
+
+section.we-are {
+    padding: 3.125vw 0;
+}
+/* we are */
+/* product section */
+section.product-main {
+    background: #1EAEE3;
+    padding: 3.125vw 0;
+}
+
+.product-img {
+    width: 22.302083vw;
+    height: 15.989583333333334vw;
+    border-radius: 1.5625vw;
+    overflow: hidden;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-heading-col h3 {
+    font-size: 3.125vw;
+    font-weight: 400;
+    line-height: 3.271875vw;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.product-heading h3 {
+    font-size: 1.3020833333333333vw;
+    font-weight: 400;
+    line-height: 1.3635416666666667vw;
+    text-align: center;
+    max-width: 13.510417vw;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.product-col-full {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-heading {
+    margin: 0.8333333333333334vw 0 0;
+}
+
+.product-btn a {
+    text-decoration: none;
+    background: #FE6500;
+    color: #fff;
+    padding: 0.3645833333333333vw 1.4583333333333333vw;
+    font-size: 1.0416666666666667vw;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.product-btn {
+    text-align: center;
+    margin: 1.4583333333333333vw 0 0.5208333333333334vw;
+}
+.pordocut-arrow img {
+    cursor: pointer;
+}
+
+.product-btn a:hover {
+    background: #91c52e;
+    transition: 0.5s;
+}
+
+.pordocut-arrow {
+    display: flex;
+    gap:  1.1979166666666667vw;
+    justify-content: center;
+    margin: 1.9270833333333333vw 0 0;
+}
+.product-heading-col {
+    margin-bottom: 2.34375vw;
+}
+
+/* product section */
+
+
+/* copreate css start */
+.corporate-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.corporate-bay {
+    background: #F3FFDC;
+    padding: 3.125vw 0;
+}
+
+.coporate-left-main {
+    width: 17.34375vw;
+    height: 7.1875vw;
+    overflow: hidden;
+}
+
+.coporate-left-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.5s;
+}
+
+.coporate-left-main img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.coporate-left-content p {
+    font-size: 0.9375vw;
+    font-weight: 600;
+    line-height: 1.93125vw;
+    max-width: 20.520833333333332vw;
+}
+
+.center-coporate-heading span {
+    font-family: Baloo Bhai;
+    font-size: 1.0416666666666667vw;
+    font-weight: 400;
+    line-height: 1.090625vw;
+    color: #FE6500;
+}
+
+.center-coporate-heading h3 {
+    font-size: 3.125vw;
+    font-weight: 400;
+    line-height: 3.271875vw;
+    text-align: center;
+    margin: 0;
+    color: #373434;
+}
+
+.center-coporate-img {
+    width: 25.729166666666668vw;
+    height: 17.083333333333332vw;
+    overflow: hidden;
+    margin-top:  1.71875vw;
+}
+
+.center-coporate-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.5s;
+}
+
+.center-coporate-img img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.right-coporate-img {
+    width: 16.458333333333332vw;
+    height: 10.9375vw;
+    overflow: hidden;
+}
+
+.right-coporate-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.5s;
+}
+
+.right-coporate-img:hover img {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.right-coporate-heading h3 {
+    font-size: 2.0833333333333335vw;
+    font-weight: 400;
+    line-height: 2.18125vw;
+    color: #7AAF14;
+    margin: 0;
+}
+
+.right-coporate-heading p {
+    font-size: 1.0416666666666667vw;
+    font-weight: 400;
+    line-height: 1.9239583333333334vw;
+    margin: 0;
+    max-width: 17.5vw;
+    font-family: 'Baloo Bhai';
+}
+
+.right-coporate-heading {
+    margin-top: 4.166666666666667vw;
+}
+/* copreate css end */
+/* watch css start */
+section.watch-main {
+    background-image: url(../images/watch-section-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 3.125vw 0;
+}
+.watch-top-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.6041666666666665vw;
+}
+
+.watch-side-arrow {
+    display: flex;
+    align-items: center;
+    gap: 1.1979166666666667vw;
+}
+
+.watch-left-heading span {
+    font-family: Baloo Bhai;
+    font-size: 1.0416666666666667vw;
+    font-weight: 400;
+    line-height: 1.090625vw;
+    color: #fff;
+}
+.form-col-main input {
+    border: none !important;
+    border-radius: 50px !important;
+}
+.watch-right-heading h3 {
+    font-size: 3.125vw;
+    font-weight: 400;
+    line-height: 3.271875vw;
+    margin: 0;
+    color: #fff;
+}
+
+.watch-slider-col {
+    display: flex;
+    justify-content: space-between;
+}
+
+.watch-img {
+    width: 13.348437500000001vw;
+    height: 11.875vw;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.watch-img img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+    transition: 0.5s;
+}
+.watch-side-arrow img {
+    cursor: pointer;
+}
+.watch-img img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.watch-content--bottom span {
+    font-family: Baloo Bhai;
+    font-size: 1.3020833333333333vw;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+.watch-side-arrow .slick-arrow.slick-hidden {
+    display: block;
+}
+
+.watch-content--bottom {
+    margin-top: 0.78125vw;
+}
+/* watch css end */
+/* form css */
+section.form-col {
+    background-image: url(../images/form-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-heading span {
+    font-family: Baloo Bhai;
+    font-size: 1.0416666666666667vw;
+    font-weight: 400;
+    line-height: 1.090625vw;
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+
+.form-main-col {
+    max-width: 34.375vw;
+    margin: 0 auto;
+}
+
+.form-heading h3 {font-family: Baloo Bhai;font-size: 3.125vw;font-weight: 400;line-height: 3.271875vw;text-align: center;margin: 0;color: #fff;}
+
+.name-form {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.78125vw;
+}
+
+.form-col-main {
+}
+
+.first-name input {
+    background: #E1FCAD;
+    border: transparent;
+    height: 2.96875vw;
+    width: 100%;
+    max-width: 16.666666666666668vw;
+    min-width: 16.666666666666668vw;
+    border-radius: 2.6041666666666665vw;
+    font-family: Baloo Bhai;
+    font-size: 1.0416666666666667vw;
+    font-weight: 400;
+    padding: 0 1.0416666666666667vw;
+    color: #578009;
+    box-sizing: border-box;
+}
+
+.first-name input::placeholder {
+    color: #578009;
+}
+
+.first-name {
+    margin: 0 0 1.0416666666666667vw 0;
+}
+
+.text-aera-col textarea {
+    background: #E1FCAD;
+    border: transparent;
+    height: 9.739583333333334vw;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 2.6041666666666665vw;
+    font-family: Baloo Bhai;
+    font-size: 1.0416666666666667vw;
+    font-weight: 400;
+    padding: 1.0416666666666667vw  1.0416666666666667vw;
+    color: #578009;
+    box-sizing: border-box;
+    text-align: left !important;
+}
+
+.text-aera-col .text-aera-col {
+    text-align: left !important;
+}
+
+.text-aera-col textarea:focus-visible {
+    box-shadow: none;
+    outline: none;
+}
+.form-heading {
+    margin: 0 0 1.1458333333333333vw 0;
+}
+.first-name input:focus-visible {
+    box-shadow: none;
+    outline: none;
+}
+.form-btn a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    background: #578009;
+    padding: 0.5729166666666666vw  2.2916666666666665vw;
+    color: #E1FCAD;
+    font-family: Baloo Bhai;
+    font-size: 1.0416666666666667vw;
+    font-weight: 400;
+    max-width: 7.96875vw;
+    margin: 0 auto;
+    border-radius: 2.6041666666666665vw;
+}
+
+.form-btn {
+    margin-top: 1.5625vw;
+}
+section.form-col {
+    padding: 3.125vw 0;
+}
+/* form css */
+section.happy-parents {
+    background: #F3ECE7;
+    padding: 3.125vw 0;
+}
+
+.parents-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:  6.770833333333333vw;
+    row-gap: 1.0416666666666667vw;
+}
+
+.first-parents-col {
+    background: #FFDFC9;
+    border-radius: 2.0833333333333335vw;
+    padding: 1.1979166666666667vw 2.2916666666666665vw;
+}
+
+.parents-heading span {
+    text-align: center;
+    display: block;
+    font-family: Baloo Bhai;
+    font-size:  1.0416666666666667vw;
+    font-weight: 400;
+    line-height: 1.090625vw;
+    color: #FE6500;
+}
+
+.parents-heading h3 {
+    font-family: Baloo Bhai;
+    font-size: 3.125vw;
+    font-weight: 400;
+    line-height: 3.271875vw;
+    text-align: center;
+    margin: 0;
+    color: #373434;
+}
+
+.parents-heading p {
+    font-family: Baloo 2;
+    font-size: 1.875vw;
+    font-weight: 400;
+    line-height: 1.9630208333333334vw;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 31.979166666666668vw;
+    margin-top: 1.1458333333333333vw;
+}
+
+.johne-parents-heading p {
+    font-size: 0.8854166666666666vw;
+    font-weight: 400;
+    line-height: 1.875vw;
+    max-width: 26.458333333333332vw;
+    margin: 0;
+}
+
+.johne-parents-heading h3 {
+    font-family: Baloo Bhai;
+    font-size: 0.9375vw;
+    font-weight: 400;
+    margin: 0;
+    line-height: 0;
+    color: #FE6500;
+    margin-top: 1.50vw;
+}
+
+.johne-parents-heading span {
+    font-family: Baloo Bhai;
+    font-size: 0.78125vw;
+    font-weight: 400;
+    color: #FE6500;
+    margin-top: 0.78125vw;
+    display: block;
+}
+.parents-main .first-parents-col:first-child {
+    background: transparent;
+}
+
+.top-main-watch-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:  0.78125vw;
+}
+
+.bottom-main-watch-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.78125vw;
+    padding-top: 0.78125vw;
+}
+
+.categories-img img {
+    width: 100%;
+}
+
+
+
+.categories-btn a {
+    text-decoration: none;
+    font-family: Baloo Bhai;
+    font-size: 1.5625vw;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    background: #FFE9DB;
+    padding: 0.58125vw  1.875vw;
+    color: #FE6500;
+    border-radius: 2.6041666666666665vw;
+    display: block;
+    max-width: 13.333333333333334vw;
+    margin: 0 auto;
+}
+.form-col .form-btn {
+    text-align: center;
+}
+.form-col .form-btn input{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    background: #578009 !important;
+    padding: 0.5729166666666666vw  2.2916666666666665vw;
+    color: #E1FCAD;
+    font-family: Baloo Bhai;
+    font-size: 1.0416666666666667vw;
+    font-weight: 400;
+    max-width: 7.96875vw;
+    margin: 0 auto;
+    border-radius: 2.6041666666666665vw;
+}
+.form-col .form-btn input:hover{
+  color: #fff;
+}
+.text-aera-col textarea::placeholder{
+    color: #578009;
+}
+.categories-btn {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 2.041667vw;
+}
+
+.first-categories {
+    position: relative;
+}
+
+section.watch-categories {
+    background: #EADCFC;
+    padding: 3.125vw 0;
+}
+
+.categories-heading h3 {
+    font-size: 3.125vw;
+    font-weight: 400;
+    line-height: 3.271875vw;
+    text-align: center;
+    margin: 0;
+    color: #373434;
+}
+
+.categories-heading {
+    margin-bottom: 3.125vw;
+}
+
+/* footer css start */
+section.footer {
+    background-image: url('https://kidsplay.exoticaitsolutions.com/wp-content/uploads/2024/05/footer-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.main-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 3.4375vw 0;
+}
+.footer-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-content ul li a:hover {
+    color: #fe6500;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+.copy-right p {
+    margin: 0;
+    text-align: center;
+    font-size: 0.7291666666666666vw;
+    font-weight: 600;
+    line-height: 1.9270833333333333vw;
+    color: #fffc;
+}
+
+.copy-right {
+    border: 1px solid #ffffff94;
+    padding: 1.0416666666666667vw 0px;
+}
+.first-footer-content {padding: 0 0 0 2.166667vw;}
+
+.main-footer .first-footer-content:first-child {
+    padding-left: 0;
+}
+
+.footer-logo a {
+    height: 4.322916666666667vw;
+    width: 9.583333333333334vw;
+    display: block;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer-logo-content p {
+    font-size: 0.8854166666666666vw;
+    font-weight: 400;
+    line-height: 1.875vw;
+    margin: 0;
+    color: #fff;
+    max-width: 17.395833333333332vw;
+}
+
+.footer-logo-content {
+    margin-top: 1.1458333333333333vw;
+}
+
+.footer-heading h4 {
+    margin: 0;
+    font-size: 1.4583333333333333vw;
+    font-weight: 400;
+    line-height: 1.5270833333333333vw;
+    color: #fff;
+}
+
+.footer-content ul li a {
+    font-family: Baloo Bhai;
+    font-size: 0.9375vw;
+    font-weight: 400;
+    line-height: 2.203125vw;
+    text-decoration: none;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.footer-heading {
+    margin: 0 0 0.78125vw 0;
+}
+
+.sociel-icon {
+    display: flex;
+    gap: 0.5208333333333334vw;
+    margin: 1.6666666666666667vw 0 0 0;
+}
+
+.facebook {
+    height: 2.0833333333333335vw;
+    width: 2.0833333333333335vw;
+}
+
+.facebook img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* footer css end */
+/* header rsponshiver */
+@media (max-width:991px){
+    .header-logo a {
+        height: auto;
+        width: auto;
+    }
+    .hamburger {
+        display: block;
+        right: 60px;
+        position: absolute;
+        z-index: 999;
+        top: 50%;
+        margin-top: 0;
+        transform: translate(10px, -50%);
+    }
+      .hamburger span.bar {
+        width: 25px;
+        height: 3px;
+        background: #2a3429;
+        margin: 5px 0;
+        display: block;
+      }
+      .hamburger span.bar {
+        background: #673AB7;
+    }
+      .hamburger.is-active {
+        margin-top: 10px;
+      }
+      ul.menu_navbar_set.is-active {
+        transform: translateY(0);
+        transition: 0.6s;
+    }
+    ul.menu_navbar_set {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #673AB7;
+        height: 100%;
+        width: 250px;
+        z-index: 9999;
+        padding: 0;
+        transform: translateY(-130%);
+        transition: 0.6s;
+        transition: all ease 0.3s;
+        opacity: 1 !important;
+        visibility: visible !important;
+        height: 100% !important;
+    }
+    .header-btn {
+        display: none;
+    }
+      .hamburger.is-active .bar:nth-child(1) {
+        transform: translateY(0px) rotate(45deg);
+      }
+      .hamburger.is-active .bar:nth-child(2) {
+        transform: translateY(-7px) rotate(-43deg);
+      }
+      .hamburger.is-active span:last-child.bar {
+        display: none;
+      }
+      .navbar ul {
+        align-items: start;
+        flex-direction: column;
+        transition: 0.6s;
+    }
+    .navbar ul li a, .header-btn a {
+        font-size: 2.9375vw;
+        padding: 1.491666vw;
+        display: block;
+        max-width: 100%;
+        background-color: unset;
+        color: #fff;
+    }
+    .navbar ul li:first-child a {
+        padding-left: 1.491666vw;
+    }
+    .header-btn {
+        margin-left: 0;
+    }
+    .navbar ul li {
+        border-bottom: 1px solid #fff;
+        width: 100%;
+    }
+    .header-btn {
+        border-bottom: 1px solid #fff;
+        width: 100%;
+    }
+    .top-bar-left-content a {
+        font-size: 1.729167vw;
+    }
+    section.banner {
+        padding: 2.6875vw 0;
+    }
+    .heading-banner p {
+        font-size: 1.729167vw;
+        line-height: 2.93125vw;
+        max-width: 100%;
+    }
+    .heading-banner h2 {
+        max-width: 100%;
+    }
+    .banner-btn a, .how-btn a, .product-btn a {
+        font-size: 1.729167vw;
+    }
+    .how-we-are-content p, .how-we-are-content span {
+        font-size: 1.729167vw;
+        line-height: 2.93125vw;
+    }
+    .how-lrft-content span {
+        font-size: 1.729167vw;
+        line-height: 3.090625vw;
+    }
+    .product-heading h3 {
+        font-size: 1.729167vw;
+        line-height: 2.125vw;
+    }
+    .coporate-left-content p, .right-coporate-heading p, .center-coporate-heading span {
+        max-width: 100%;
+        font-size: 1.729167vw;
+        line-height: 2.93125vw;
+    }
+    .watch-left-heading span, .watch-content--bottom span{
+        font-size: 1.729167vw;
+        line-height: 2.93125vw;
+    }
+    .johne-parents-heading p, .johne-parents-heading h3, .johne-parents-heading span, .parents-heading span, .parents-heading p, .footer-logo-content p{
+        font-size: 1.729167vw;
+        line-height: 2.93125vw;
+        max-width: 100%;
+    }
+    .footer-content ul li a {
+        font-size: 1.9975vw;
+    }
+    .footer-heading h4 {
+        font-size: 2.458333vw;
+        line-height: 4.527083vw;
+    }
+    .copy-right p {
+        font-size: 1.729167vw;
+    }
+}
+
+
+@media (max-width:767px){
+    .main-banner {
+        flex-direction: column-reverse;
+    }
+    section.banner .slick-dots {
+        bottom: -5.729167vw !important;
+    }
+    .banner-left-content {
+        margin-top: 3.041667vw;
+    }
+    .how-we-are {
+        flex-direction: column;
+    }
+    .how-we-sre-right {
+        padding-left: 0;
+    }
+    .product-img {
+        width: auto;
+        height: auto;
+    }
+    .product-heading h3 {
+        font-size: 2.729167vw;
+        line-height: 5.125vw;
+        max-width: 100%;
+    }
+    .product-btn {
+        margin: 0.46875vw 1.40625vw;
+    }
+    .banner-btn a, .how-btn a, .product-btn a {
+        font-size: 2.3vw;
+    }
+    .first-product-baby {
+        margin-left: 0.5208333333333334vw;
+    }
+    .how-lrft-content h3, .product-heading-col h3, .center-coporate-heading h3, .watch-right-heading h3, .categories-heading h3, .form-heading h3, .parents-heading h3 {
+        font-size: 4.84375vw;
+        line-height: 4.271875vw;
+    }
+    .first-coporate-col {
+        order: 1;
+        margin: 2.0833333333333335vw  0 2.0833333333333335vw 0;
+    }
+    .right-coporate-col {
+        order: 3;
+    }
+    .corporate-main {
+        grid-template-columns: 1fr;
+    }
+    .center-coporate-heading span {
+        text-align: center;
+        display: block;
+    }
+    .center-coporate-img, .right-coporate-img {
+        width: auto;
+        height: auto;
+    }
+    .coporate-left-main {
+        width: auto;
+        height: auto;
+    }
+    .coporate-left-content p, .right-coporate-heading p {
+        font-size: 2.9375vw;
+        line-height: 4.5625vw;
+    }
+    .right-coporate-heading h3, .right-coporate-heading p {
+        text-align: center;
+    }
+    .center-coporate-heading span, .right-coporate-heading h3, .watch-left-heading span, .how-lrft-content span, .form-heading span, .parents-heading span {
+        font-size: 2.729167vw;
+        line-height: 3.93125vw;
+    }
+    .watch-top-heading {
+        flex-direction: column;
+        row-gap: 0.5208333333333334vw;
+    }
+    .watch-img {
+        width: auto;
+        height: auto;
+    }
+    .watch-left-heading span, .watch-content--bottom span {
+        font-size: 3.729167vw;
+        line-height: 5.93125vw;
+    }
+    .first-name input {
+        max-width: 100%;
+        min-width: 100%;
+        height: 4.96875vw;
+        font-size: 2.0416666666666667vw;
+    }
+    .name-form {
+        flex-direction: column;
+    }
+    .text-aera-col textarea {
+        font-size: 2.0416666666666667vw;
+    }
+    .form-btn a {
+        padding: 0.572917vw  3.291667vw;
+        font-size: 2.041667vw;
+    }
+    .main-footer {
+        grid-template-columns: 1fr;
+    }
+    .main-footer .first-footer-content:first-child {
+        margin-bottom: 2.041667vw;
+    }
+    .footer-content {
+        margin-bottom: 2.041667vw;
+    }
+    .first-footer-content {
+        padding: 0;
+    }
+    .form-col .form-btn input {
+        padding: 6px 20px;
+        font-size: 14px;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+@media (max-width:574px){
+.header-logo a {
+    height: 13.645833vw;
+    width: 29.770833vw;
+}
+.hamburger {
+    right: 30px;
+}
+.top-bar-left-content a {
+    font-size: 2.729167vw;
+}
+.top-bar-left-content i {
+    font-size: 3.041667vw;
+}
+.topbar {
+    padding: 1.520833vw 0;
+}
+.heading-banner p {
+    font-size: 3.729167vw;
+    line-height: 4.93125vw;
+    max-width: 100%;
+    margin: 2.78125vw 0 0 0;
+}
+.banner-btn a, .how-btn a, .product-btn a {
+    font-size: 4.3vw;
+}
+.banner-btn a {
+    padding: 1.520833vw 7.083333vw;
+}
+section.banner .slick-dots {
+    bottom: -8.729167vw !important;
+}
+section.banner .slick-dots li button:before {
+    font-size: 3.041667vw !important;
+}
+.how-we-are-content p, .how-we-are-content span {
+    font-size: 3.729167vw;
+    line-height: 5.93125vw;
+}
+.how-we-are-img {
+    width: auto;
+    height: auto;
+}
+.center-coporate-heading span, .right-coporate-heading h3, .watch-left-heading span, .how-lrft-content span, .form-heading span, .parents-heading span {
+    font-size: 3.729167vw;
+    line-height: 5.93125vw;
+}
+.how-lrft-content h3, .product-heading-col h3, .center-coporate-heading h3, .watch-right-heading h3, .categories-heading h3, .form-heading h3, .parents-heading h3 {
+    font-size: 5.84375vw;
+    line-height: 6.271875vw;
+}
+.how-btn a {
+    padding: 2.364583vw 7.458333vw;
+}
+.how-btn {
+    margin: 3.4375vw 0 3.4375vw;
+}
+.heading-banner h2 {
+    font-size: 5.84375vw;
+}
+.banner-img-children {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.product-heading h3 {
+    font-size: 4.729167vw;
+    line-height: 7.125vw;
+}
+.product-btn {
+    margin: 2.46875vw 3.40625vw;
+}
+.product-btn a {
+    padding: 1.364583vw 5.458333vw;
+}
+.coporate-left-content p, .right-coporate-heading p {
+    font-size: 3.729167vw;
+    line-height: 5.93125vw;
+}
+.watch-left-heading span, .watch-content--bottom span {
+    font-size: 4.729167vw;
+    line-height: 7.93125vw;
+}
+.bottom-main-watch-col, .top-main-watch-col {
+    grid-template-columns: 1fr;
+}
+.categories-btn {
+    bottom: 7.041667vw;
+}
+.categories-btn a {
+    font-size: 3.5625vw;
+    padding: 2.58125vw  0;
+    margin: 0 30px;
+    max-width: 100%;
+}
+.form-main-col {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.first-name input {
+    height: 7.96875vw;
+    font-size: 3.0416666666666667vw;
+    padding: 0 2.041667vw;
+}
+.text-aera-col textarea {
+    font-size: 3.0416666666666667vw;
+    padding: 0 2.041667vw;
+    height: 13.739583vw;
+}
+.form-btn a {
+    padding: 2.572917vw  8.291667vw;
+    font-size: 4.041667vw;
+    display: block;
+    max-width: 100%;
+}
+.first-name {
+    margin: 0 0 3.041667vw 0;
+}
+.parents-main {
+    grid-template-columns: 1fr;
+}
+.johne-parents-heading p, .johne-parents-heading h3, .johne-parents-heading span, .parents-heading span, .parents-heading p, .footer-logo-content p {
+    max-width: 100%;
+    font-size: 3.729167vw;
+    line-height: 5.93125vw;
+}
+.first-parents-col {
+    background: #FFDFC9;
+    border-radius: 2.0833333333333335vw;
+    padding: 4.197917vw 4.291667vw;
+}
+.footer-content ul li a {
+    font-size: 2.9975vw;
+}
+.footer-heading h4 {
+    font-size: 4.458333vw;
+    line-height: 6.527083vw;
+}
+.copy-right p {
+    font-size: 3.729167vw;
+    line-height: 6.927083vw;
+}
+.facebook {
+    height: 6.083333vw;
+    width: 10.083333vw;
+}
+.footer-logo a {
+    height: 17.322917vw;
+    width: 34.583333vw;
+    display: block;
+}
+}
+/* header rsponshiver */
+
+
+
+@media(max-width: 479px){
+    section.banner, section.we-are, section.product-main, .corporate-bay, section.watch-main, section.watch-categories, section.form-col, .main-footer {
+    padding: 8.125vw 0;
+}
+}
